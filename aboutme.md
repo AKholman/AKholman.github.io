@@ -1,16 +1,14 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About Me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+I am a Senior ML / AI Engineer with a strong background in machine learning,
+NLP, and large language models. I focus on building reliable, scalable,
+production-grade AI systems.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+My recent work includes end-to-end RAG pipelines, LLM-powered applications,
+and ML systems deployed on AWS using Docker, FastAPI, and CI/CD workflows.
 
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I enjoy translating complex research ideas into practical solutions that
+deliver measurable business impact.

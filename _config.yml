@@ -10,17 +10,18 @@
 ############################
 
 # Name of website
-title: My website
+title: Senior ML / AI Engineer
 
 # Your name to show in the footer
-author: Some Person
+author: Alex Khol
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  About Me:   ML & AI Engineer with strong experience in NLP, LLMs, RAG systems,
+    and production-ready ML pipelines on AWS.
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
@@ -32,7 +33,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: "/assets/img/profile_photo.jpg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -50,14 +51,10 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+  email: "iskandar.kholmanov@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+  github: https://github.com/AKholman
+  linkedIn: https://www.linkedin.com/in/iskandar-kholman/
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
 #  linkedin: daattali
@@ -86,7 +83,8 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: ML & AI Engineer with strong experience in NLP, LLMs, RAG systems,
+    and production-ready ML pipelines on AWS.
 
 ###########################
 # --- General options --- #
@@ -94,11 +92,8 @@ rss-description: This website is a virtual proof that I'm awesome
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
   linkedin: true
-  vk: false
-  reddit: false
+  github: true
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
