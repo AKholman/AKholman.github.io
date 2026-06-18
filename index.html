@@ -65,13 +65,48 @@ layout: home
 
 <h2 id="projects">Selected Projects</h2>
 
-<h3>End-to-End RAG System</h3>
+<h4>End-to-End RAG System</h4>
 <p>
-Production-grade RAG pipeline using LangChain, Hugging Face embeddings,
-ChromaDB, and FastAPI. Dockerized with CI/CD.
+Production-ready Retrieval-Augmented Generation (RAG) system built with
+<strong>LangChain</strong>, <strong>Hugging Face embeddings</strong>, and
+<strong>ChromaDB</strong> over a <strong>Wikidata SPARQL ML knowledge base</strong>.
+Dockerized <strong>FastAPI backend</strong> and <strong>Gradio frontend</strong>
+deployed on separate Hugging Face Spaces with automated
+<strong>GitHub Actions CI/CD</strong> and no external API dependencies.
+</p>
+<p>
+<strong>Links:</strong>
+<a href="https://github.com/AKholman/rag-langchain-ml-assistant" target="_blank">GitHub</a> ·
+<a href="https://huggingface.co/Alex-Khol" target="_blank">Hugging Face</a>
 </p>
 
-<h3>Stock Price Forecasting (LSTM)</h3>
+<hr>
+
+<h3>LLM Fine-Tuning & Deployment (Mistral-7B + LoRA)</h3>
 <p>
-PyTorch LSTM time-series model deployed with Streamlit.
+End-to-end instruction-tuning pipeline using <strong>LoRA/PEFT</strong> on
+<strong>Mistral-7B</strong> trained on a <strong>T4 GPU (Google Colab)</strong>.
+Built mixed real and synthetic datasets and deployed a
+<strong>4-bit quantized (QLoRA) FastAPI inference service</strong>.
+Analyzed performance limits related to dataset scale and instruction alignment.
+</p>
+<p>
+<strong>Links:</strong>
+<a href="https://github.com/AKholman/ecommerce-llm-finetune-llm" target="_blank">GitHub</a>
+</p>
+
+<hr>
+
+<h3>Stock Price Forecasting (PyTorch LSTM)</h3>
+<p>
+Production-grade time-series ML system using <strong>PyTorch LSTM</strong>,
+orchestrated with <strong>Dockerized Airflow</strong>, tracked via
+<strong>MLflow</strong>, and monitored with <strong>Evidently</strong>.
+Outperformed SARIMA, Random Forest, XGBoost, and LSTM-Keras baselines with
+<strong>1.64% MAPE on unseen data</strong>.
+</p>
+<p>
+<strong>Links:</strong>
+<a href="https://github.com/AKholman/Deep-Learning-stock-forecasting-app" target="_blank">GitHub</a> ·
+<a href="https://akholman-deep-learning-stock-forecasting-app-app-uq0keh.streamlit.app/" target="_blank">Live App</a>
 </p>
