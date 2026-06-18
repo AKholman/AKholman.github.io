@@ -7,7 +7,7 @@ author: "Alex Kholman"
 
 navbar-links:
   Home: "/"
-  Projects: "/#projects"
+  Projects: "/projects"
   About: "/aboutme"
   Resume: "/assets/files/Resume.pdf"
   GitHub: "https://github.com/AKholman"
