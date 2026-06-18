@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<!-- FULL-WIDTH BACKGROUND IMAGE ONLY -->
+<!-- FULL-WIDTH HERO BACKGROUND -->
 <div style="
   width: 100vw;
   height: 70vh;
@@ -10,27 +10,50 @@ layout: home
   background-image: url('/assets/img/back_image.png');
   background-size: cover;
   background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 ">
-</div>
 
-<!-- TEXT SECTION BELOW IMAGE -->
-<div style="margin-top:50px; text-align:center;">
-
-  <h1 style="color:#000;">ML / AI Engineer</h1>
-
-  <p style="
-    max-width:750px;
-    margin: 0 auto;
-    font-size:18px;
-    color:#000;
+  <!-- HERO CONTENT OVERLAY -->
+  <div style="
+    background: rgba(0,0,0,0.55);
+    padding: 50px 60px;
+    border-radius: 14px;
+    text-align: center;
+    max-width: 900px;
+    color: white;
   ">
-    I build production-grade AI systems focused on LLMs, RAG pipelines,
-    and scalable ML infrastructure using Python, PyTorch, LangChain, and AWS.
-  </p>
 
+    <h1 style="font-size:42px; margin-bottom:15px;">
+      ML / AI Engineer
+    </h1>
+
+    <p style="font-size:18px; margin-bottom:30px;">
+      I build production-grade AI systems focused on LLMs, RAG pipelines,
+      and scalable ML infrastructure using Python, PyTorch, LangChain, and AWS.
+    </p>
+
+    <!-- RESUME BUTTON -->
+    <a href="/assets/files/Alex_Khol_Resume.pdf" target="_blank"
+       style="
+         display:inline-block;
+         padding:14px 30px;
+         background:#0A66C2;
+         color:white;
+         text-decoration:none;
+         border-radius:8px;
+         font-weight:600;
+         font-size:16px;
+       ">
+      Download Resume (PDF)
+    </a>
+
+  </div>
 </div>
 
-<hr>
+<!-- BODY CONTENT -->
+<div style="margin-top:60px;">
 
 <h2 id="skills">Skills</h2>
 
@@ -44,7 +67,7 @@ layout: home
 
 <hr>
 
-<h2 id="projects">Projects</h2>
+<h2 id="projects">Selected Projects</h2>
 
 <h3>End-to-End RAG System</h3>
 <p>
@@ -56,3 +79,5 @@ ChromaDB, and FastAPI. Deployed with Docker and CI/CD.
 <p>
 Built PyTorch LSTM model for time-series forecasting and deployed via Streamlit.
 </p>
+
+</div>
