@@ -1,25 +1,49 @@
 title: "Alex Khol | ML / AI Engineer"
 author: "Alex Khol"
 
+############################
+# --- Navigation Bar --- #
+############################
+
 navbar-links:
   Home: "/"
   Projects: "/#projects"
   Skills: "/#skills"
+  Publications: "/publications"
   About: "/aboutme"
   Resume: "/resume"
   GitHub: "https://github.com/AKholman"
   LinkedIn: "https://www.linkedin.com/in/iskandar-kholman/"
 
+################
+# --- Avatar --- #
+################
+
 avatar: "/assets/img/profile_photo.jpg"
 round-avatar: true
+
+###########################
+# --- Social Links --- #
+###########################
 
 social-network-links:
   email: "iskandar.kholmanov@gmail.com"
   github: "https://github.com/AKholman"
   linkedin: "https://www.linkedin.com/in/iskandar-kholman/"
+  rss: false
+
+###########################
+# --- SEO / Site --- #
+###########################
 
 title-on-all-pages: true
 post_search: false
+
+rss-description: "ML / AI Engineer specializing in LLMs, RAG systems, and production ML pipelines."
+
+###########################
+# --- Colors --- #
+###########################
 
 page-col: "#FFFFFF"
 text-col: "#2E2E2E"
@@ -28,11 +52,22 @@ hover-col: "#004182"
 
 navbar-col: "#0F172A"
 navbar-text-col: "#FFFFFF"
+navbar-border-col: "#0F172A"
 
 footer-col: "#0F172A"
 footer-text-col: "#CCCCCC"
+footer-link-col: "#FFFFFF"
+footer-hover-col: "#0A66C2"
+
+###########################
+# --- Footer --- #
+###########################
 
 url-pretty: "akholman.github.io"
+
+###########################
+# --- Defaults --- #
+###########################
 
 markdown: kramdown
 permalink: /:title/
@@ -42,6 +77,10 @@ defaults:
       path: ""
     values:
       layout: "page"
+
+###########################
+# --- Plugins --- #
+###########################
 
 plugins:
   - jekyll-paginate
