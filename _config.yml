@@ -9,7 +9,7 @@ navbar-links:
   Home: "/"
   Projects: "/#projects"
   About: "/aboutme"
-  Resume: "/resume"
+  Resume: "/assets/files/Resume.pdf"
   GitHub: "https://github.com/AKholman"
   LinkedIn: "https://www.linkedin.com/in/iskandar-kholman/"
 
