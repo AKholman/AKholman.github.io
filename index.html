@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<!-- FULL-WIDTH HERO BACKGROUND -->
+<!-- FULL-WIDTH BACKGROUND IMAGE (TOP ONLY) -->
 <div style="
   width: 100vw;
   height: 70vh;
@@ -10,59 +10,55 @@ layout: home
   background-image: url('/assets/img/back_image.png');
   background-size: cover;
   background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 ">
-
-  <!-- HERO CONTENT OVERLAY -->
-  <div style="
-    background: rgba(0,0,0,0.55);
-    padding: 50px 60px;
-    border-radius: 14px;
-    text-align: center;
-    max-width: 900px;
-    color: white;
-  ">
-
-    <h1 style="font-size:42px; margin-bottom:15px;">
-      ML / AI Engineer
-    </h1>
-
-    <p style="font-size:18px; margin-bottom:30px;">
-      I build production-grade AI systems focused on LLMs, RAG pipelines,
-      and scalable ML infrastructure using Python, PyTorch, LangChain, and AWS.
-    </p>
-
-    <!-- RESUME BUTTON -->
-    <a href="/assets/files/Alex_Khol_Resume.pdf" target="_blank"
-       style="
-         display:inline-block;
-         padding:14px 30px;
-         background:#0A66C2;
-         color:white;
-         text-decoration:none;
-         border-radius:8px;
-         font-weight:600;
-         font-size:16px;
-       ">
-      Download Resume (PDF)
-    </a>
-
-  </div>
 </div>
 
-<!-- BODY CONTENT -->
-<div style="margin-top:60px;">
+<!-- HERO TEXT SECTION (BELOW IMAGE) -->
+<div style="
+  margin-top:60px;
+  text-align:center;
+  padding: 0 20px;
+">
+
+  <h1 style="font-size:42px; margin-bottom:15px;">
+    ML / AI Engineer
+  </h1>
+
+  <p style="
+    max-width:750px;
+    margin: 0 auto 30px auto;
+    font-size:18px;
+  ">
+    I build production-grade AI systems focused on LLMs, RAG pipelines,
+    and scalable ML infrastructure using Python, PyTorch, LangChain, and AWS.
+  </p>
+
+  <!-- RESUME BUTTON -->
+  <a href="/assets/files/Alex_Khol_Resume.pdf" target="_blank"
+     style="
+       display:inline-block;
+       padding:14px 30px;
+       background:#0A66C2;
+       color:white;
+       text-decoration:none;
+       border-radius:8px;
+       font-weight:600;
+       font-size:16px;
+     ">
+    Download Resume (PDF)
+  </a>
+
+</div>
+
+<hr>
 
 <h2 id="skills">Skills</h2>
-
-<ul>
-  <li>Python, SQL, Git, Docker</li>
-  <li>PyTorch, scikit-learn, XGBoost</li>
-  <li>LLMs, RAG, LangChain, Hugging Face</li>
-  <li>FAISS, ChromaDB, Vector Search</li>
-  <li>AWS (S3, EC2, Lambda), CI/CD</li>
+<<ul>
+  <li><strong>Programming & MLOps:</strong> Python, SQL, Git, Docker, CI/CD (GitHub Actions), AWS (EC2, S3, Lambda), MLflow, Airflow</li>
+  <li><strong>GenAI & LLMs:</strong> RAG pipelines, LangChain, LlamaIndex, Hugging Face, LoRA/PEFT</li>
+  <li><strong>Vector Search:</strong> FAISS, ChromaDB, semantic search</li>
+  <li><strong>ML & DL:</strong> PyTorch, TensorFlow, scikit-learn, transformers, time-series modeling</li>
+  <li><strong>Analytics:</strong> EDA, A/B testing, statistical analysis</li>
 </ul>
 
 <hr>
@@ -71,13 +67,11 @@ layout: home
 
 <h3>End-to-End RAG System</h3>
 <p>
-Built production-grade RAG pipeline using LangChain, Hugging Face embeddings,
-ChromaDB, and FastAPI. Deployed with Docker and CI/CD.
+Production-grade RAG pipeline using LangChain, Hugging Face embeddings,
+ChromaDB, and FastAPI. Dockerized with CI/CD.
 </p>
 
 <h3>Stock Price Forecasting (LSTM)</h3>
 <p>
-Built PyTorch LSTM model for time-series forecasting and deployed via Streamlit.
+PyTorch LSTM time-series model deployed with Streamlit.
 </p>
-
-</div>
