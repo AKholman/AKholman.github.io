@@ -8,12 +8,9 @@ author: "Alex Khol"
 navbar-links:
   Home: "/"
   Projects: "/#projects"
-  Skills: "/#skills"
-  Publications: "/publications"
   About: "/aboutme"
   Resume: "/resume"
   GitHub: "https://github.com/AKholman"
-  LinkedIn: "https://www.linkedin.com/in/iskandar-kholman/"
 
 ################
 # --- Avatar --- #
