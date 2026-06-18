@@ -1,46 +1,43 @@
 ---
-layout: page
-title: ML / AI Engineer
-hide-title: true
+layout: home
 ---
 
-<!-- REMOVE DEFAULT SPACING -->
-<style>
-.page-content {
-  padding-top: 0px !important;
-}
-
-.container {
-  margin-top: 0px !important;
-}
-</style>
-
-<!-- HERO BACKGROUND (FULL WIDTH, FIXED HEIGHT) -->
+<!-- FULL-WIDTH HERO BACKGROUND -->
 <div style="
-  width: 100%;
-  height: 380px;
+  width: 100vw;
+  height: 70vh;
+  margin-left: calc(-50vw + 50%);
   background-image: url('/assets/img/back_image.png');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 ">
+
+  <div style="
+    background: rgba(0,0,0,0.6);
+    padding: 50px 60px;
+    border-radius: 14px;
+    text-align: center;
+    max-width: 900px;
+    color: white;
+  ">
+
+    <h1 style="font-size: 42px; margin-bottom: 15px;">
+      ML / AI Engineer
+    </h1>
+
+    <p style="font-size: 18px;">
+      I build production-grade AI systems focused on LLMs, RAG pipelines,
+      and scalable ML infrastructure using Python, PyTorch, LangChain, and AWS.
+    </p>
+
+  </div>
 </div>
 
-<!-- TEXT BELOW HERO -->
-<div style="text-align:center; padding:40px 20px;">
-
-  <h1>ML / AI Engineer</h1>
-
-  <p style="max-width:750px; margin:0 auto; font-size:18px;">
-    I build production-grade AI systems focused on LLMs, RAG pipelines,
-    and scalable ML infrastructure using Python, PyTorch, LangChain, and AWS.
-  </p>
-
-</div>
-
-<hr>
+<!-- NORMAL PAGE CONTENT -->
+<div style="margin-top:60px;">
 
 <h2 id="skills">Skills</h2>
 
@@ -52,21 +49,17 @@ hide-title: true
   <li>AWS (S3, EC2, Lambda), CI/CD</li>
 </ul>
 
-<hr>
-
 <h2 id="projects">Projects</h2>
 
-<div style="margin-bottom:30px;">
-  <h3>End-to-End RAG System</h3>
-  <p>
-    Built production-grade RAG pipeline using LangChain, Hugging Face embeddings,
-    ChromaDB, and FastAPI. Deployed with Docker and CI/CD.
-  </p>
-</div>
+<h3>End-to-End RAG System</h3>
+<p>
+Built production-grade RAG pipeline using LangChain, Hugging Face embeddings,
+ChromaDB, and FastAPI. Deployed with Docker and CI/CD.
+</p>
 
-<div style="margin-bottom:30px;">
-  <h3>Stock Price Forecasting (LSTM)</h3>
-  <p>
-    Built PyTorch LSTM model for time-series forecasting and deployed via Streamlit.
-  </p>
+<h3>Stock Price Forecasting (LSTM)</h3>
+<p>
+Built PyTorch LSTM model for time-series forecasting and deployed via Streamlit.
+</p>
+
 </div>
