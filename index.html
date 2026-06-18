@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<!-- FULL-WIDTH HERO BACKGROUND -->
+<!-- FULL-WIDTH BACKGROUND IMAGE ONLY -->
 <div style="
   width: 100vw;
   height: 70vh;
@@ -10,34 +10,27 @@ layout: home
   background-image: url('/assets/img/back_image.png');
   background-size: cover;
   background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 ">
-
-  <div style="
-    background: transparent;
-    padding: 50px 60px;
-    border-radius: 14px;
-    text-align: flex-end;
-    max-width: 900px;
-    color: white;
-  ">
-
-    <h1 style="font-size: 42px; margin-bottom: 15px;">
-      ML / AI Engineer
-    </h1>
-
-    <p style="font-size: 18px;">
-      I build production-grade AI systems focused on LLMs, RAG pipelines,
-      and scalable ML infrastructure using Python, PyTorch, LangChain, and AWS.
-    </p>
-
-  </div>
 </div>
 
-<!-- NORMAL PAGE CONTENT -->
-<div style="margin-top:60px;">
+<!-- TEXT SECTION BELOW IMAGE -->
+<div style="margin-top:50px; text-align:center;">
+
+  <h1 style="color:#000;">ML / AI Engineer</h1>
+
+  <p style="
+    max-width:750px;
+    margin: 0 auto;
+    font-size:18px;
+    color:#000;
+  ">
+    I build production-grade AI systems focused on LLMs, RAG pipelines,
+    and scalable ML infrastructure using Python, PyTorch, LangChain, and AWS.
+  </p>
+
+</div>
+
+<hr>
 
 <h2 id="skills">Skills</h2>
 
@@ -48,6 +41,8 @@ layout: home
   <li>FAISS, ChromaDB, Vector Search</li>
   <li>AWS (S3, EC2, Lambda), CI/CD</li>
 </ul>
+
+<hr>
 
 <h2 id="projects">Projects</h2>
 
@@ -61,5 +56,3 @@ ChromaDB, and FastAPI. Deployed with Docker and CI/CD.
 <p>
 Built PyTorch LSTM model for time-series forecasting and deployed via Streamlit.
 </p>
-
-</div>
