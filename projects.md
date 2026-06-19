@@ -9,9 +9,11 @@ End-to-end production-style credit card fraud detection system built to handle e
 
 **Tech:** Python, XGBoost, Spark/SQL, Databricks, AWS EC2, AWS Lambda, API Gateway, S3, Streamlit
 **Links:**
-
-- GitHub: https://github.com/AKholman
-- Live Demo: https://streamlit.io
+<p>
+  <strong>Links:</strong><br/>
+  <a href="https://github.com/AKholman" target="_blank">GitHub Repository</a><br/>
+  <a href="https://fraud-detection-82yj5vkxtevasdsitmgjsm.streamlit.app/" target="_blank">Live Demo</a>
+</p>
 
 ---
 
@@ -20,8 +22,11 @@ Production-ready Retrieval-Augmented Generation system using LangChain and Huggi
 
 **Tech:** Python, LangChain, Hugging Face, ChromaDB, FastAPI, Docker  
 **Links:**  
-- GitHub: https://github.com/AKholman  
-- Hugging Face: https://huggingface.co
+<p>
+  <strong>Links:</strong><br/>
+  <a href="https://github.com/AKholman" target="_blank">GitHub Repository</a><br/>
+  <a href="https://huggingface.co" target="_blank">Live Demo</a>
+</p>
 
 ---
 
@@ -30,7 +35,10 @@ Built an instruction-tuning pipeline using LoRA/PEFT on Mistral-7B. Trained on A
 
 **Tech:** PyTorch, PEFT, LoRA, QLoRA, FastAPI  
 **Links:**  
-- GitHub: https://github.com/AKholman
+<p>
+  <strong>Links:</strong><br/>
+  <a href="https://github.com/AKholman" target="_blank">GitHub Repository</a><br/>
+</p>
 
 ---
 
@@ -39,8 +47,11 @@ End-to-end time-series ML system using PyTorch LSTM with Airflow orchestration, 
 
 **Tech:** PyTorch, Airflow, MLflow, Evidently, Streamlit  
 **Links:**  
-- GitHub: https://github.com/AKholman  
-- Live App: https://streamlit.io
+<p>
+  <strong>Links:</strong><br/>
+  <a href="https://github.com/AKholman" target="_blank">GitHub Repository</a><br/>
+  <a href="https://akholman-deep-learning-stock-forecasting-app-app-uq0keh.streamlit.app/" target="_blank">Live Demo</a>
+</p>
 
 ---
 
