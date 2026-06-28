@@ -43,8 +43,8 @@ rss-description: "ML / AI Engineer specializing in LLMs, RAG systems, and produc
 # --- Colors --- #
 ###########################
 
-page-col: "#FFFFFF"
-text-col: "#2E2E2E"
+page-col: "#0B0F19"
+text-col: "#EAEAEA"
 link-col: "#0A66C2"
 hover-col: "#004182"
 
