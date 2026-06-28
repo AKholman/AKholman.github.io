@@ -17,6 +17,20 @@ End-to-end production-style credit card fraud detection system built to handle e
 
 ---
 
+Production RAG System with Cloud Observability & Cost-Aware Serving
+
+End-to-end production-grade Retrieval-Augmented Generation system with a decoupled cloud architecture. Built a FAISS-based retrieval pipeline using sentence-transformers (MiniLM) and served generation via Groq-hosted LLaMA-3.1-8B. Implemented a Colab → AWS workflow with versioned artifacts in S3 and a FastAPI inference layer on EC2. Added CloudWatch-based observability with structured logging, latency breakdown (embedding / FAISS / LLM), token usage tracking, and p95 latency analysis. Validated system stability with 60+ request tests and production-style monitoring.
+
+Tech: Python, Sentence-Transformers, FAISS, FastAPI, AWS EC2, S3, CloudWatch, Groq LLM
+Links:
+
+<p> 
+  <strong>Links:</strong><br/> 
+  <a href="https://github.com/AKholman/RAG-System-with-Cloud-Observability-Cost-Aware-Serving" target="_blank">GitHub Repository</a><br/> 
+</p>
+
+---
+
 ## End-to-End RAG System
 Production-ready Retrieval-Augmented Generation system using LangChain and Hugging Face embeddings, with ChromaDB vector search and FastAPI backend. Deployed via Docker with automated GitHub Actions CI/CD.
 
