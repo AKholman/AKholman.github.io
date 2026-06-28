@@ -28,7 +28,7 @@ social-network-links:
   email: "iskandar.kholmanov@gmail.com"
   github: "https://github.com/AKholman"
   linkedin: "https://www.linkedin.com/in/iskandar-kholman/"
-  rss: true
+  rss: false
 
 ###########################
 # --- SEO / Site --- #
