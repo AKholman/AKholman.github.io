@@ -54,30 +54,32 @@ layout: home
 
 <h2 id="skills">Skills</h2>
 <ul>
-  <li><strong>Programming & MLOps:</strong> Python, SQL, Git, Docker, CI/CD (GitHub Actions), AWS (EC2, S3, Lambda), MLflow, Airflow</li>
-  <li><strong>GenAI & LLMs:</strong> RAG pipelines, LangChain, LlamaIndex, Hugging Face, LoRA/PEFT</li>
-  <li><strong>Vector Search:</strong> FAISS, ChromaDB, semantic search</li>
+  <li><strong>Programming & MLOps:</strong> Python, SQL, Git, Docker, CI/CD (GitHub Actions), Databricks (Spark) 
+    AWS (EC2, S3, lambda), Serverless ML, model serving, CloudWatch (metrics, logs, dashboards), 
+    latency & cost monitoring, MLflow, Airflow, cloud-native deployment;</li>
+  <li><strong>GenAI & LLMs:</strong> LLM fine-tuning (LoRA/PEFT), end-to-end RAG pipelines, LangChain, LlamaIndex, 
+    HuggingFace, LLM inference APIs (Groq, LLaMA-3.x)</li>
+  <li><strong>Vector Search:</strong> Embedding-based retrieval, FAISS, ChromaDB, semantic search, similarity metrics (cosine similarity)</li>
   <li><strong>ML & DL:</strong> PyTorch, TensorFlow, scikit-learn, transformers, time-series modeling</li>
-  <li><strong>Analytics:</strong> EDA, A/B testing, statistical analysis</li>
+  <li><strong>Stat Analysis:</strong> EDA, A/B testing, time series analysis, statmodels</li>
 </ul>
 
 <hr>
 
 <h2 id="projects">Selected Projects</h2>
 
-<h3>End-to-End RAG System</h3>
+<h3>Production RAG System with Cloud Observability & Cost-Aware Serving</h3>
 <p>
-Production-ready Retrieval-Augmented Generation (RAG) system built with
-<strong>LangChain</strong>, <strong>Hugging Face embeddings</strong>, and
-<strong>ChromaDB</strong> over a <strong>Wikidata SPARQL ML knowledge base</strong>.
-Dockerized <strong>FastAPI backend</strong> and <strong>Gradio frontend</strong>
-deployed on separate Hugging Face Spaces with automated
-<strong>GitHub Actions CI/CD</strong> and no external API dependencies.
+End-to-end production RAG pipeline using <strong>MiniLM embeddings</strong> + 
+<strong>FAISS retrieval</strong> with <strong>FastAPI</strong> serving on 
+<strong>AWS EC2</strong> and <strong>Groq-hosted LLaMA-3.1-8B</strong> for generation. 
+Implemented a decoupled <strong>Colab → S3 → EC2 architecture</strong> with 
+<strong>CloudWatch</strong> observability, including structured logs, <strong>latency decomposition</strong> 
+(embed / retrieve / LLM), <strong>token usage</strong>token usage tracking, and <strong>p95 latency</strong> analysis.
 </p>
 <p>
 <strong>Links:</strong>
-<a href="https://github.com/AKholman/rag-langchain-ml-assistant" target="_blank">GitHub</a> ·
-<a href="https://huggingface.co/Alex-Khol" target="_blank">Hugging Face</a>
+<a href="https://github.com/AKholman/RAG-System-with-Cloud-Observability-Cost-Aware-Serving" target="_blank">GitHub</a> ·
 </p>
 
 <hr>
