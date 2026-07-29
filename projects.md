@@ -5,11 +5,11 @@ title: Projects
 
 ## Fraud Detection System (Real-time ML Pipeline)
 
-End-to-end production-style credit card fraud detection platform designed to handle extreme class imbalance (~0.17% fraud cases). Built a complete ML workflow using Databricks (Spark/SQL) for preprocessing, XGBoost (CPU) model training on AWS EC2, and AWS S3 for model artifact management. Achieved ROC-AUC 0.997, precision 0.89, and recall 0.97 on held-out data.
+End-to-end production-style credit card fraud detection platform designed to handle extreme class imbalance (~0.17% fraud cases). Built a complete ML workflow using Databricks (Spark/SQL) for preprocessing, XGBoost (CPU) model training on AWS EC2, and AWS S3 for model artifact management. Achieved ROC-AUC 0.997, precision 0.79, and recall 0.97 on held-out data.
 
 Implemented two production inference architectures:
 
-Serverless AWS deployment: Containerized XGBoost inference service using AWS Lambda (container image) + API Gateway, with a Streamlit dashboard for real-time fraud prediction.
+Serverless AWS deployment: Containerized XGBoost inference service using AWS Lambda (container image) + API Gateway, with a Streamlit dashboard for real-time fraud prediction.><br/>
 Kubernetes deployment: Dockerized FastAPI inference service deployed on Kubernetes, exposed through Kubernetes Service, with a separate Streamlit UI for interactive prediction.
 
 Demonstrates end-to-end MLOps practices including model training, artifact management, containerization, cloud deployment, API development, and scalable model serving..
