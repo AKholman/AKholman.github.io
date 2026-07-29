@@ -41,19 +41,6 @@ Links:
 
 ---
 
-## End-to-End RAG System
-Production-ready Retrieval-Augmented Generation system using LangChain and Hugging Face embeddings, with ChromaDB vector search and FastAPI backend. Deployed via Docker with automated GitHub Actions CI/CD.
-
-**Tech:** Python, LangChain, Hugging Face, ChromaDB, FastAPI, Docker  
-**Links:**  
-<p>
-  <strong>Links:</strong><br/>
-  <a href="https://github.com/AKholman/rag-langchain-ml-assistant" target="_blank">GitHub Repository</a><br/>
-  <a href="https://huggingface.co" target="_blank">Live Demo</a>
-</p>
-
----
-
 ## LLM Fine-Tuning (Mistral-7B + LoRA)
 Built an instruction-tuning pipeline using LoRA/PEFT on Mistral-7B. Trained on Amazon reviews, synthetic Q&A, and product metadata using Google Colab (T4 GPU). Deployed quantized inference (QLoRA) via FastAPI.
 
@@ -83,3 +70,16 @@ End-to-end time-series ML system using PyTorch LSTM with Airflow orchestration, 
   👉 For additional projects and experiments, see my
   <a href="https://github.com/AKholman" target="_blank">GitHub profile</a>.
 </p>
+
+---
+## End-to-End RAG System
+Production-ready Retrieval-Augmented Generation system using LangChain and Hugging Face embeddings, with ChromaDB vector search and FastAPI backend. Deployed via Docker with automated GitHub Actions CI/CD.
+
+**Tech:** Python, LangChain, Hugging Face, ChromaDB, FastAPI, Docker  
+**Links:**  
+<p>
+  <strong>Links:</strong><br/>
+  <a href="https://github.com/AKholman/rag-langchain-ml-assistant" target="_blank">GitHub Repository</a><br/>
+  <a href="https://huggingface.co" target="_blank">Live Demo</a>
+</p>
+---
