@@ -18,10 +18,9 @@ Demonstrates end-to-end MLOps practices including model training, artifact manag
 <p>
   <strong>Links:</strong><br/>
   <a href="https://github.com/AKholman/Credit-card-fraud-detection-aws-pipeline" target="_blank">GitHub Repository (AWS Lambda Version)</a><br/>
-  <a href="https://fraud-detection-82yj5vkxtevasdsitmgjsm.streamlit.app/" target="_blank">Live Demo ((AWS Lambda Version)</a>
-  <strong>Links:</strong><br/>
+  <a href="https://fraud-detection-82yj5vkxtevasdsitmgjsm.streamlit.app/" target="_blank">Live Demo (AWS Lambda Version)</a><br/>
   <a href="https://github.com/AKholman/Fraud-Detection-XGBoost-FastAPI-Kubernetes" target="_blank">GitHub Repository (Kubernetes Version)</a><br/>
-  <a href="https://fraud-detection-xgboost-fastapi-kubernetes-nkehcys9g2xcmyxzbrt.streamlit.app/" target="_blank">Live Demo ((AWS Kubernetes Version)</a>
+  <a href="https://fraud-detection-xgboost-fastapi-kubernetes-nkehcys9g2xcmyxzbrt.streamlit.app/" target="_blank">Live Demo (Kubernetes Version)</a>
 
 </p>
 
