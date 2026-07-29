@@ -15,7 +15,6 @@ Kubernetes deployment: Dockerized FastAPI inference service deployed on Kubernet
 Demonstrates end-to-end MLOps practices including model training, artifact management, containerization, cloud deployment, API development, and scalable model serving..
 
 **Tech:** Python, XGBoost, Spark, SQL, Databricks, AWS EC2, AWS S3, AWS Lambda, API Gateway, Docker, Kubernetes, FastAPI, Streamlit
-**Links:**
 <p>
   <strong>Links:</strong><br/>
   <a href="https://github.com/AKholman/Credit-card-fraud-detection-aws-pipeline" target="_blank">GitHub Repository (AWS Lambda Version)</a><br/>
