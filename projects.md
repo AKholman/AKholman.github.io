@@ -13,10 +13,10 @@ Demonstrates end-to-end MLOps: model training, artifact management, containeriza
 **Tech:** Python, XGBoost, Spark, SQL, Databricks, AWS EC2, AWS S3, AWS Lambda, API Gateway, Docker, Kubernetes, FastAPI, Streamlit
 <p>
   <strong>Links:</strong><br/>
-  <a href="https://github.com/AKholman/Credit-card-fraud-detection-aws-pipeline" target="_blank">GitHub Repository (AWS Lambda Version)</a><br/>
-  <a href="https://fraud-detection-82yj5vkxtevasdsitmgjsm.streamlit.app/" target="_blank">Live Demo (AWS Lambda Version)</a><br/>
-  <a href="https://github.com/AKholman/Fraud-Detection-XGBoost-FastAPI-Kubernetes" target="_blank">GitHub Repository (Kubernetes Version)</a><br/>
-  <a href="https://fraud-detection-xgboost-fastapi-kubernetes-nkehcys9g2xcmyxzbrt.streamlit.app/" target="_blank">Live Demo (Kubernetes Version)</a>
+  <a href="https://github.com/AKholman/Credit-card-fraud-detection-aws-pipeline" target="_blank">GitHub Repository</a> (AWS Lambda Version)<br/>
+  <a href="https://fraud-detection-82yj5vkxtevasdsitmgjsm.streamlit.app/" target="_blank">Live Demo</a> (AWS Lambda Version)<br/>
+  <a href="https://github.com/AKholman/Fraud-Detection-XGBoost-FastAPI-Kubernetes" target="_blank">GitHub Repository</a>(Kubernetes Version)<br/>
+  <a href="https://fraud-detection-xgboost-fastapi-kubernetes-nkehcys9g2xcmyxzbrt.streamlit.app/" target="_blank">Live Demo </a>(Kubernetes Version)
 
 </p>
 
