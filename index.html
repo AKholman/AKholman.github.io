@@ -53,20 +53,41 @@ layout: home
 <hr>
 
 <h2 id="skills">Skills</h2>
+
 <ul>
-  <li><strong>Programming & MLOps:</strong> Python, SQL, Git, Docker, CI/CD (GitHub Actions), Databricks (Spark) 
-    AWS (EC2, S3, lambda), Serverless ML, model serving, CloudWatch (metrics, logs, dashboards), 
-    latency & cost monitoring, MLflow, Airflow, cloud-native deployment;</li>
-  <li><strong>GenAI & LLMs:</strong> LLM fine-tuning (LoRA/PEFT), end-to-end RAG pipelines, LangChain, LlamaIndex, 
-    HuggingFace, LLM inference APIs (Groq, LLaMA-3.x)</li>
-  <li><strong>Vector Search:</strong> Embedding-based retrieval, FAISS, ChromaDB, semantic search, similarity metrics (cosine similarity)</li>
-  <li><strong>ML & DL:</strong> PyTorch, TensorFlow, scikit-learn, transformers, time-series modeling</li>
-  <li><strong>Stat Analysis:</strong> EDA, A/B testing, time series analysis, statmodels</li>
+  <li><strong>Programming & MLOps:</strong> Python, SQL, Git, Docker, CI/CD (GitHub Actions), Databricks (Spark), BigQuery, 
+    Google Cloud Storage (GCS), AWS (EC2, S3, Lambda), FastAPI, Serverless ML, model serving, CloudWatch (metrics, logs, dashboards), 
+    latency & cost monitoring, MLflow, Airflow, cloud-native deployment</li>
+  <li><strong>GenAI & LLMs:</strong> LLM fine-tuning (LoRA/PEFT), end-to-end RAG pipelines, LangChain, LlamaIndex, Hugging Face, 
+    LLM inference APIs (Groq, LLaMA-3.x)</li>
+  <li><strong>Recommendation Systems:</strong> Two-Tower retrieval models, Deep & Cross Network (DCN v2), embedding learning, 
+    candidate generation, Qdrant vector database, personalized ranking, offline training, online inference</li>
+  <li><strong>Vector Search:</strong> Embedding-based retrieval, Qdrant, FAISS, ChromaDB, semantic search, cosine similarity</li>
+  <li><strong>ML & DL:</strong> PyTorch, TensorFlow, scikit-learn, XGBoost, LightGBM, CatBoost, transformers, time-series modeling</li>
+  <li><strong>Stat Analysis:</strong> EDA, A/B testing, time series analysis, statsmodels</li>
 </ul>
+
+
 
 <hr>
 
 <h2 id="projects">Selected Projects</h2>
+
+<h3>Production-Style Personalized Recommendation System with Two-Tower Retrieval & DCN Ranking</h3>
+<p>
+End-to-end recommendation pipeline using <strong>BigQuery</strong> for data preprocessing, 
+<strong>Google Cloud Storage (GCS)</strong> for data storage, and <strong>streaming Parquet</strong> data 
+for scalable training. Built a <strong>PyTorch Two-Tower</strong> retrieval model with <strong>Qdrant</strong> 
+vector search and a <strong>Deep &amp; Cross Network (DCN v2)</strong> ranking model, supporting 
+<strong>offline training</strong> and <strong>online inference</strong> through a <strong>FastAPI</strong> 
+service that returns Top-10 personalized recommendations.
+</p>
+<p>
+<strong>Links:</strong>
+<a href="https://github.com/AKholman/Personalized-Recommendation-System" target="_blank">GitHub</a> ·
+</p>
+
+<hr>
 
 <h3>Production RAG System with Cloud Observability & Cost-Aware Serving</h3>
 <p>
